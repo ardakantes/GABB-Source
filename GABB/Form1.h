@@ -1376,7 +1376,7 @@ namespace GABB {
 			this->MaximizeBox = false;
 			this->Name = L"Form1";
 			this->Opacity = 0.97;
-			this->Text = L"GABB v0.6.17 By SrMotion";
+			this->Text = L"GABB";
 			this->FormClosing += gcnew System::Windows::Forms::FormClosingEventHandler(this, &Form1::Form1_FormClosing);
 			this->Load += gcnew System::EventHandler(this, &Form1::Form1_Load);
 			this->tabPage2->ResumeLayout(false);
