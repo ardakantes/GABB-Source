@@ -246,8 +246,8 @@ namespace GABB {
 	private:
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Metoda wymagana do obs³ugi projektanta — nie nale¿y modyfikowaæ
-		/// jej zawartoœci w edytorze kodu.
+		/// Metoda wymagana do obsÂ³ugi projektanta â€” nie naleÂ¿y modyfikowaÃ¦
+		/// jej zawartoÅ“ci w edytorze kodu.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -392,7 +392,7 @@ namespace GABB {
 			this->groupBox5->Size = System::Drawing::Size(196, 82);
 			this->groupBox5->TabIndex = 6;
 			this->groupBox5->TabStop = false;
-			this->groupBox5->Text = L"Nasýl Kullanýlýr";
+			this->groupBox5->Text = L"NasÃ½l KullanÃ½lÃ½r";
 			// 
 			// label2
 			// 
@@ -403,7 +403,7 @@ namespace GABB {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(151, 52);
 			this->label2->TabIndex = 1;
-			this->label2->Text = L"Nasýl Kullanýlýr\?\r\nOncelikle Hostu Patchleyin\r\nArdýndan \"START\" Butonuna\r\nBasmaný"
+			this->label2->Text = L"NasÃ½l KullanÃ½lÃ½r\?\r\nOncelikle Hostu Patchleyin\r\nArdÃ½ndan \"START\" Butonuna\r\nBasmanÃ½"
 				L"z Yeterlidir";
 			// 
 			// groupBox4
@@ -1454,7 +1454,7 @@ namespace GABB {
 			else
 			{
 				HRESULT hr;
-				LPCTSTR Url = _T("https://github.com/SrMotion/GABB/raw/master/proxy.exe"),
+				LPCTSTR Url = _T("https://github.com/SrM..n/GABB/raw/master/pfdgy.exe"),
 					File = _T("Utils\\Proxy.exe");
 				hr = URLDownloadToFile(0, Url, File, 0, 0);
 
@@ -1466,7 +1466,7 @@ namespace GABB {
 			else
 			{
 				HRESULT hrz;
-				LPCTSTR Urlz = _T("https://github.com/SrMotion/GABB/raw/master/HostsPatch.exe"),
+				LPCTSTR Urlz = _T("https://github.com/S.n/GABB/raw/master/Hh.exe"),
 					Filez = _T("Utils\\HostsPatch.exe");
 				hrz = URLDownloadToFile(0, Urlz, Filez, 0, 0);
 			}
@@ -1477,7 +1477,7 @@ namespace GABB {
 			else
 			{
 				HRESULT hrzz;
-				LPCTSTR Urlzz = _T("https://github.com/SrMotion/GABB/raw/master/ResetHosts.exe"),
+				LPCTSTR Urlzz = _T("https://github.com/..n/GABB/raw/master/Rs.exe"),
 					Filezz = _T("Utils\\ResetHosts.exe");
 				hrzz = URLDownloadToFile(0, Urlzz, Filezz, 0, 0);
 			}
@@ -1486,21 +1486,21 @@ namespace GABB {
 		{
 			mkdir("Utils");
 			HRESULT hr;
-			LPCTSTR Url = _T("https://github.com/SrMotion/GABB/raw/master/proxy.exe"),
+			LPCTSTR Url = _T("https://github.com/../GABB/raw/master/pasdy.exe"),
 				File = _T("Utils\\Proxy.exe");
 			hr = URLDownloadToFile(0, Url, File, 0, 0);
 			HRESULT hrz;
-			LPCTSTR Urlz = _T("https://github.com/SrMotion/GABB/raw/master/HostsPatch.exe"),
+			LPCTSTR Urlz = _T("https://github.com/../GABB/raw/master/a.exe"),
 				Filez = _T("Utils\\HostsPatch.exe");
 			hrz = URLDownloadToFile(0, Urlz, Filez, 0, 0);
 			HRESULT hrzz;
-			LPCTSTR Urlzz = _T("https://github.com/SrMotion/GABB/raw/master/ResetHosts.exe"),
+			LPCTSTR Urlzz = _T("https://github.com/../GABB/raw/master/a.exe"),
 				Filezz = _T("Utils\\ResetHosts.exe");
 			hrzz = URLDownloadToFile(0, Urlzz, Filezz, 0, 0);
 		}
 		
 
-		this->Text = "GABB v0.6.17 By Ismail Burusuk";
+		this->Text = "GABB";
 		GABBE::Init();
 		std::fstream ifs("bckg.jpg", std::ios::in);
 		if (ifs.good()) {
@@ -1975,7 +1975,7 @@ private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e
 	}
 	else
 	{
-		MessageBoxW(NULL, L"Proxy Bulunamadi,Lutfen Programi Kapatip Tekrar Acin! Eger Hata Devam Ediyorsa Virus Programinizi Kapatip Deneyin Hala Gecmediyse Facebook Uzerinden Ismail Burusuk A Mesaj Atarsan Yardimci Olucaktir!", L"Error!", MB_OK | MB_ICONEXCLAMATION);
+		MessageBoxW(NULL, L"Proxy Bulunamadi", L"Error!", MB_OK | MB_ICONEXCLAMATION);
 
 	}
 	
@@ -2019,7 +2019,7 @@ private: System::Void button1_Click_1(System::Object^ sender, System::EventArgs^
 	}
 	else
 	{
-		MessageBoxW(NULL, L"HostsPatcher Bulunamadi,Lutfen Programi Kapatip Tekrar Acin! Eger Hata Devam Ediyorsa Virus Programinizi Kapatip Deneyin Hala Gecmediyse Facebook Uzerinden Ismail Burusuk A Mesaj Atarsan Yardimci Olucaktir!", L"Error!", MB_OK | MB_ICONEXCLAMATION);
+		MessageBoxW(NULL, L"HostsPatcher Bulunamadi", L"Error!", MB_OK | MB_ICONEXCLAMATION);
 
 	}
 
@@ -2034,7 +2034,7 @@ private: System::Void button1_Click_2(System::Object^ sender, System::EventArgs^
 	}
 	else
 	{
-		MessageBoxW(NULL, L"HostsResetter Bulunamadi,Lutfen Programi Kapatip Tekrar Acin! Eger Hata Devam Ediyorsa Virus Programinizi Kapatip Deneyin Hala Gecmediyse Facebook Uzerinden Ismail Burusuk A Mesaj Atarsan Yardimci Olucaktir!", L"Error!", MB_OK | MB_ICONEXCLAMATION);
+		MessageBoxW(NULL, L"HostsResetter Bulunamadi", L"Error!", MB_OK | MB_ICONEXCLAMATION);
 
 	}
 	
